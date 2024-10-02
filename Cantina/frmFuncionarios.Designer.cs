@@ -76,13 +76,13 @@ namespace Cantina
             this.pnlCRUD.Controls.Add(this.btnNovo);
             this.pnlCRUD.Location = new System.Drawing.Point(-2, 500);
             this.pnlCRUD.Name = "pnlCRUD";
-            this.pnlCRUD.Size = new System.Drawing.Size(782, 59);
+            this.pnlCRUD.Size = new System.Drawing.Size(990, 96);
             this.pnlCRUD.TabIndex = 0;
             // 
             // btnVoltar
             // 
             this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
-            this.btnVoltar.Location = new System.Drawing.Point(676, 9);
+            this.btnVoltar.Location = new System.Drawing.Point(871, 23);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(102, 42);
             this.btnVoltar.TabIndex = 6;
@@ -95,7 +95,7 @@ namespace Cantina
             // btnLimpar
             // 
             this.btnLimpar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpar.Image")));
-            this.btnLimpar.Location = new System.Drawing.Point(565, 9);
+            this.btnLimpar.Location = new System.Drawing.Point(728, 23);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(102, 42);
             this.btnLimpar.TabIndex = 5;
@@ -107,7 +107,7 @@ namespace Cantina
             // btnPesquisar
             // 
             this.btnPesquisar.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.Image")));
-            this.btnPesquisar.Location = new System.Drawing.Point(456, 9);
+            this.btnPesquisar.Location = new System.Drawing.Point(577, 23);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(102, 42);
             this.btnPesquisar.TabIndex = 4;
@@ -120,7 +120,7 @@ namespace Cantina
             // btnExcluir
             // 
             this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
-            this.btnExcluir.Location = new System.Drawing.Point(344, 9);
+            this.btnExcluir.Location = new System.Drawing.Point(436, 23);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(102, 42);
             this.btnExcluir.TabIndex = 3;
@@ -133,7 +133,7 @@ namespace Cantina
             // btnAlterar
             // 
             this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
-            this.btnAlterar.Location = new System.Drawing.Point(232, 9);
+            this.btnAlterar.Location = new System.Drawing.Point(289, 23);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(102, 42);
             this.btnAlterar.TabIndex = 2;
@@ -146,7 +146,7 @@ namespace Cantina
             // btnCadastrar
             // 
             this.btnCadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrar.Image")));
-            this.btnCadastrar.Location = new System.Drawing.Point(119, 9);
+            this.btnCadastrar.Location = new System.Drawing.Point(153, 23);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(102, 42);
             this.btnCadastrar.TabIndex = 1;
@@ -159,7 +159,7 @@ namespace Cantina
             // btnNovo
             // 
             this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
-            this.btnNovo.Location = new System.Drawing.Point(6, 9);
+            this.btnNovo.Location = new System.Drawing.Point(6, 23);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(102, 42);
             this.btnNovo.TabIndex = 0;
@@ -194,9 +194,10 @@ namespace Cantina
             this.gpbDadosPessoais.Controls.Add(this.txtCodigo);
             this.gpbDadosPessoais.Controls.Add(this.lblCodigo);
             this.gpbDadosPessoais.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpbDadosPessoais.ForeColor = System.Drawing.SystemColors.Control;
             this.gpbDadosPessoais.Location = new System.Drawing.Point(4, 16);
             this.gpbDadosPessoais.Name = "gpbDadosPessoais";
-            this.gpbDadosPessoais.Size = new System.Drawing.Size(771, 472);
+            this.gpbDadosPessoais.Size = new System.Drawing.Size(967, 478);
             this.gpbDadosPessoais.TabIndex = 1;
             this.gpbDadosPessoais.TabStop = false;
             this.gpbDadosPessoais.Text = "Dados pessoais";
@@ -204,7 +205,7 @@ namespace Cantina
             // lblEstado
             // 
             this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(344, 351);
+            this.lblEstado.Location = new System.Drawing.Point(360, 349);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(60, 20);
             this.lblEstado.TabIndex = 21;
@@ -213,14 +214,14 @@ namespace Cantina
             // cbbEstado
             // 
             this.cbbEstado.FormattingEnabled = true;
-            this.cbbEstado.Location = new System.Drawing.Point(344, 372);
+            this.cbbEstado.Location = new System.Drawing.Point(360, 372);
             this.cbbEstado.Name = "cbbEstado";
             this.cbbEstado.Size = new System.Drawing.Size(172, 28);
             this.cbbEstado.TabIndex = 20;
             // 
             // txtCidade
             // 
-            this.txtCidade.Location = new System.Drawing.Point(35, 374);
+            this.txtCidade.Location = new System.Drawing.Point(39, 374);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(275, 26);
             this.txtCidade.TabIndex = 19;
@@ -228,7 +229,7 @@ namespace Cantina
             // lblCidade
             // 
             this.lblCidade.AutoSize = true;
-            this.lblCidade.Location = new System.Drawing.Point(35, 351);
+            this.lblCidade.Location = new System.Drawing.Point(35, 349);
             this.lblCidade.Name = "lblCidade";
             this.lblCidade.Size = new System.Drawing.Size(59, 20);
             this.lblCidade.TabIndex = 18;
@@ -236,7 +237,7 @@ namespace Cantina
             // 
             // txtBairro
             // 
-            this.txtBairro.Location = new System.Drawing.Point(522, 300);
+            this.txtBairro.Location = new System.Drawing.Point(571, 300);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(211, 26);
             this.txtBairro.TabIndex = 17;
@@ -244,7 +245,7 @@ namespace Cantina
             // lblBairro
             // 
             this.lblBairro.AutoSize = true;
-            this.lblBairro.Location = new System.Drawing.Point(522, 277);
+            this.lblBairro.Location = new System.Drawing.Point(567, 277);
             this.lblBairro.Name = "lblBairro";
             this.lblBairro.Size = new System.Drawing.Size(51, 20);
             this.lblBairro.TabIndex = 16;
@@ -252,7 +253,7 @@ namespace Cantina
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(430, 300);
+            this.txtNumero.Location = new System.Drawing.Point(446, 300);
             this.txtNumero.MaxLength = 10;
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(86, 26);
@@ -261,7 +262,7 @@ namespace Cantina
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
-            this.lblNumero.Location = new System.Drawing.Point(430, 277);
+            this.lblNumero.Location = new System.Drawing.Point(444, 277);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(65, 20);
             this.lblNumero.TabIndex = 14;
@@ -286,16 +287,16 @@ namespace Cantina
             // 
             // mskTelefone
             // 
-            this.mskTelefone.Location = new System.Drawing.Point(207, 220);
+            this.mskTelefone.Location = new System.Drawing.Point(196, 220);
             this.mskTelefone.Mask = "99999-9999";
             this.mskTelefone.Name = "mskTelefone";
-            this.mskTelefone.Size = new System.Drawing.Size(97, 26);
+            this.mskTelefone.Size = new System.Drawing.Size(99, 26);
             this.mskTelefone.TabIndex = 11;
             // 
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Location = new System.Drawing.Point(205, 192);
+            this.lblTelefone.Location = new System.Drawing.Point(192, 197);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(71, 20);
             this.lblTelefone.TabIndex = 10;
@@ -305,13 +306,13 @@ namespace Cantina
             // 
             this.txtEmail.Location = new System.Drawing.Point(444, 136);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(289, 26);
+            this.txtEmail.Size = new System.Drawing.Size(360, 26);
             this.txtEmail.TabIndex = 9;
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(444, 113);
+            this.lblEmail.Location = new System.Drawing.Point(440, 113);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(53, 20);
             this.lblEmail.TabIndex = 8;
@@ -329,7 +330,7 @@ namespace Cantina
             // lblCEP
             // 
             this.lblCEP.AutoSize = true;
-            this.lblCEP.Location = new System.Drawing.Point(344, 192);
+            this.lblCEP.Location = new System.Drawing.Point(344, 197);
             this.lblCEP.Name = "lblCEP";
             this.lblCEP.Size = new System.Drawing.Size(41, 20);
             this.lblCEP.TabIndex = 6;
@@ -346,7 +347,7 @@ namespace Cantina
             // lblCPF
             // 
             this.lblCPF.AutoSize = true;
-            this.lblCPF.Location = new System.Drawing.Point(35, 192);
+            this.lblCPF.Location = new System.Drawing.Point(31, 197);
             this.lblCPF.Name = "lblCPF";
             this.lblCPF.Size = new System.Drawing.Size(40, 20);
             this.lblCPF.TabIndex = 4;
@@ -362,7 +363,7 @@ namespace Cantina
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(35, 113);
+            this.lblNome.Location = new System.Drawing.Point(31, 113);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(51, 20);
             this.lblNome.TabIndex = 2;
@@ -378,7 +379,7 @@ namespace Cantina
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(35, 45);
+            this.lblCodigo.Location = new System.Drawing.Point(31, 45);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(59, 20);
             this.lblCodigo.TabIndex = 0;
@@ -388,7 +389,8 @@ namespace Cantina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 557);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(983, 621);
             this.Controls.Add(this.gpbDadosPessoais);
             this.Controls.Add(this.pnlCRUD);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
